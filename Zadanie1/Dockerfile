@@ -4,9 +4,9 @@ RUN useradd -ms /bin/bash mczyz
 
 WORKDIR /home/mczyz
 
-RUN mkdir scala && mkdir react
+RUN mkdir data
 
-VOLUME scala react
+VOLUME data
 
 EXPOSE 3000 9000
 
