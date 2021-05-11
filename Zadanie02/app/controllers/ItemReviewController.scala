@@ -11,7 +11,7 @@ import scala.util.{Failure, Success}
 @Singleton
 class ItemReviewController @Inject()(cc: MessagesControllerComponents)(implicit ec: ExecutionContext) extends MessagesAbstractController(cc) {
 
-  def getItemReview: Action[AnyContent] = Action.async { implicit request =>
+  def getItemReview(id: Long): Action[AnyContent] = Action.async { implicit request =>
     Future {
       Ok("")
     }

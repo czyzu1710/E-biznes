@@ -1,8 +1,11 @@
 package models
+
 import play.api.libs.json.Json
 
-case class Payment(id: Long, orderId: Long, isPayed: Boolean, amount: Double)
+import java.util.Date
 
-object Payment{
+case class Payment(id: Long, userId: Long, paymentType: String, provider: String, accountNumber: String, expiry: Date)
+
+object Payment {
   implicit val paymentFormat = Json.format[Payment]
 }

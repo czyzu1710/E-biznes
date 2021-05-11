@@ -1,8 +1,11 @@
 package models
+
 import play.api.libs.json.Json
 
-case class Discount(id: Long, productId: Long, amount: Double)
+import java.util.Date
 
-object Discount{
+case class Discount(id: Long, name: String, discountPercentage: Float, expire: Date, productId: Long)
+
+object Discount {
   implicit val discountFormat = Json.format[Discount]
 }

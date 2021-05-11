@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/home/michal/Dokumenty/E-Biznes/E-Biznes-sklep/Zadanie02/conf/routes:21:1: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (rh: play.api.mvc.RequestHeader)play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (request: play.api.mvc.Request[play.api.mvc.AnyContent])scala.concurrent.Future[play.api.mvc.Result][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Long)[0m
+[0m[[0m[31merror[0m] [0m[0mGET           /cart/:id            controllers.CartController.getCart(id: Long)[0m
+[0m[[0m[31merror[0m] [0m[0m/home/michal/Dokumenty/E-Biznes/E-Biznes-sklep/Zadanie02/conf/routes:27:1: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (rh: play.api.mvc.RequestHeader)play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (request: play.api.mvc.Request[play.api.mvc.AnyContent])scala.concurrent.Future[play.api.mvc.Result][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Long)[0m
+[0m[[0m[31merror[0m] [0m[0mGET           /itemreview/:id         controllers.ItemReviewController.getItemReview(id: Long)[0m
+[0m[[0m[31merror[0m] [0m[0m/home/michal/Dokumenty/E-Biznes/E-Biznes-sklep/Zadanie02/conf/routes:43:1: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (rh: play.api.mvc.RequestHeader)play.api.libs.streams.Accumulator[akka.util.ByteString,play.api.mvc.Result] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (request: play.api.mvc.Request[play.api.mvc.AnyContent])scala.concurrent.Future[play.api.mvc.Result][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Long)[0m
+[0m[[0m[31merror[0m] [0m[0mGET           /order/:id         controllers.OrderController.getOrder(id: Long)[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
